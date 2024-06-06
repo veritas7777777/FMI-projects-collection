@@ -1,0 +1,7 @@
+chess: https://www.chess.com/home
+youtube: https://www.youtube.com/
+instagram: https://www.instagram.com/
+gmail: https://www.gmail.com/
+twitter: https://www.twitter.com/
+facebook: https://www.facebook.com/
+netflix: https://www.netflix.com/

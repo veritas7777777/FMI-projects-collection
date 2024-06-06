@@ -1,0 +1,77 @@
+FlexibleVP Documentation
+========================
+
+Content
+-----------------
+1. Description
+2. Installation
+3. Usage
+4. Contributing
+5. License
+
+1. Description
+----------------
+
+The flexibleVP plugin is a Vim plugin that allows you to easily launch web addresses and application addresses from within Vim.
+
+2. Installation
+----------------
+
+To install the FlexibleVP plugin, you can use a plugin manager such as Vim-Plug, Vundle, or Pathogen.
+
+Example installation using Vim-Plug:
+
+1. Add the following line to your Vim configuration file (e.g., `~/.vimrc` or `init.vim`):
+
+    
+    Plug 'username/flexibleVP'
+    
+
+2. Reload your Vim configuration.
+
+3. Run the `:PlugInstall` command to install the plugin.
+
+4. Verify that the plugin has been successfully installed by opening Vim and checking for any error messages.
+
+3. Usage
+---------
+
+The FlexibleVP plugin provides several commands that allow you to launch applications and open web pages.
+
+1. Launching an application:
+
+	:Launch example
+
+2. Opening a web page:
+
+	:Launch example_website
+
+3. Adding new app addresses:
+
+	:Adda app_name app_address
+
+4. Adding new web page addresses:
+
+	:Addw web_name www.example.com
+
+5. Check existing addresses or add new ones:
+
+	:Listw - for webaddresses
+	:Lista - for appaddresses
+
+4. Contributing
+---------------
+
+Contributions to the FlexibleVP plugin are welcome!
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your changes.
+3. Make the necessary modifications.
+4. Write tests to ensure the correctness of your changes (if applicable).
+5. Submit a pull request describing your changes.
+
+5. License
+----------
+
+The FlexibleVP plugin is released under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+
